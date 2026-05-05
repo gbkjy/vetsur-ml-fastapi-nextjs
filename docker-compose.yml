@@ -3,6 +3,7 @@
 services:
   api:
     image: gbkjy/vetsur-api:latest
+    build: ./api
     ports: 
       - "8008:8008"
     mem_limit: 512m
